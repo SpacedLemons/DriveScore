@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E66C82B2D7F8C3F003A0384 /* NetworkingMocks in Frameworks */ = {isa = PBXBuildFile; productRef = 0E66C82A2D7F8C3F003A0384 /* NetworkingMocks */; };
+		0EB6E9302D75CE1700554297 /* NetworkingMocks in Frameworks */ = {isa = PBXBuildFile; productRef = 0EB6E92F2D75CE1700554297 /* NetworkingMocks */; };
+		0EFD771F2D753E8D00170820 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 0EFD771E2D753E8D00170820 /* Networking */; };
+		C88F5FF42D74C97500ADC6EB /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = C88F5FF32D74C97500ADC6EB /* DesignSystem */; };
+		C88F603B2D74CC9900ADC6EB /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = C88F603A2D74CC9900ADC6EB /* Networking */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C868739C2D70BFE50020D1D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C86873822D70BFE40020D1D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C86873892D70BFE40020D1D7;
+			remoteInfo = DriverScoretest;
+		};
+		C86873A62D70BFE50020D1D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C86873822D70BFE40020D1D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C86873892D70BFE40020D1D7;
+			remoteInfo = DriverScoretest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EA209D12D7F656C00AD7FDC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C868738A2D70BFE40020D1D7 /* DriverScoretest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriverScoretest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C868739B2D70BFE50020D1D7 /* DriverScoretestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriverScoretestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86873A52D70BFE50020D1D7 /* DriverScoretestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriverScoretestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C868738C2D70BFE40020D1D7 /* DriverScoretest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DriverScoretest;
+			sourceTree = "<group>";
+		};
+		C868739E2D70BFE50020D1D7 /* DriverScoretestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DriverScoretestTests;
+			sourceTree = "<group>";
+		};
+		C86873A82D70BFE50020D1D7 /* DriverScoretestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DriverScoretestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C86873872D70BFE40020D1D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88F603B2D74CC9900ADC6EB /* Networking in Frameworks */,
+				C88F5FF42D74C97500ADC6EB /* DesignSystem in Frameworks */,
+				0E66C82B2D7F8C3F003A0384 /* NetworkingMocks in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86873982D70BFE50020D1D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB6E9302D75CE1700554297 /* NetworkingMocks in Frameworks */,
+				0EFD771F2D753E8D00170820 /* Networking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86873A22D70BFE50020D1D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C86873812D70BFE40020D1D7 = {
+			isa = PBXGroup;
+			children = (
+				C868738C2D70BFE40020D1D7 /* DriverScoretest */,
+				C868739E2D70BFE50020D1D7 /* DriverScoretestTests */,
+				C86873A82D70BFE50020D1D7 /* DriverScoretestUITests */,
+				C88F5FF22D74C97500ADC6EB /* Frameworks */,
+				C868738B2D70BFE40020D1D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C868738B2D70BFE40020D1D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C868738A2D70BFE40020D1D7 /* DriverScoretest.app */,
+				C868739B2D70BFE50020D1D7 /* DriverScoretestTests.xctest */,
+				C86873A52D70BFE50020D1D7 /* DriverScoretestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C88F5FF22D74C97500ADC6EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EA209D12D7F656C00AD7FDC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C86873892D70BFE40020D1D7 /* DriverScoretest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86873AF2D70BFE50020D1D7 /* Build configuration list for PBXNativeTarget "DriverScoretest" */;
+			buildPhases = (
+				C86873862D70BFE40020D1D7 /* Sources */,
+				C86873872D70BFE40020D1D7 /* Frameworks */,
+				C86873882D70BFE40020D1D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C868738C2D70BFE40020D1D7 /* DriverScoretest */,
+			);
+			name = DriverScoretest;
+			packageProductDependencies = (
+				C88F5FF32D74C97500ADC6EB /* DesignSystem */,
+				C88F603A2D74CC9900ADC6EB /* Networking */,
+				0E66C82A2D7F8C3F003A0384 /* NetworkingMocks */,
+			);
+			productName = DriverScoretest;
+			productReference = C868738A2D70BFE40020D1D7 /* DriverScoretest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C868739A2D70BFE50020D1D7 /* DriverScoretestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86873B22D70BFE50020D1D7 /* Build configuration list for PBXNativeTarget "DriverScoretestTests" */;
+			buildPhases = (
+				C86873972D70BFE50020D1D7 /* Sources */,
+				C86873982D70BFE50020D1D7 /* Frameworks */,
+				C86873992D70BFE50020D1D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EFD77212D753E9B00170820 /* PBXTargetDependency */,
+				C868739D2D70BFE50020D1D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C868739E2D70BFE50020D1D7 /* DriverScoretestTests */,
+			);
+			name = DriverScoretestTests;
+			packageProductDependencies = (
+				0EFD771E2D753E8D00170820 /* Networking */,
+				0EB6E92F2D75CE1700554297 /* NetworkingMocks */,
+			);
+			productName = DriverScoretestTests;
+			productReference = C868739B2D70BFE50020D1D7 /* DriverScoretestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C86873A42D70BFE50020D1D7 /* DriverScoretestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86873B52D70BFE50020D1D7 /* Build configuration list for PBXNativeTarget "DriverScoretestUITests" */;
+			buildPhases = (
+				C86873A12D70BFE50020D1D7 /* Sources */,
+				C86873A22D70BFE50020D1D7 /* Frameworks */,
+				C86873A32D70BFE50020D1D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C86873A72D70BFE50020D1D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C86873A82D70BFE50020D1D7 /* DriverScoretestUITests */,
+			);
+			name = DriverScoretestUITests;
+			packageProductDependencies = (
+				0EA209D52D7F658900AD7FDC /* Networking */,
+				0EA209D72D7F658900AD7FDC /* NetworkingMocks */,
+			);
+			productName = DriverScoretestUITests;
+			productReference = C86873A52D70BFE50020D1D7 /* DriverScoretestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C86873822D70BFE40020D1D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C86873892D70BFE40020D1D7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C868739A2D70BFE50020D1D7 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+						TestTargetID = C86873892D70BFE40020D1D7;
+					};
+					C86873A42D70BFE50020D1D7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C86873892D70BFE40020D1D7;
+					};
+				};
+			};
+			buildConfigurationList = C86873852D70BFE40020D1D7 /* Build configuration list for PBXProject "DriverScoretest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C86873812D70BFE40020D1D7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C88F5FF12D74C96400ADC6EB /* XCLocalSwiftPackageReference "Packages/DesignSystem" */,
+				C88F60392D74CC2E00ADC6EB /* XCLocalSwiftPackageReference "Packages/Networking" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C868738B2D70BFE40020D1D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C86873892D70BFE40020D1D7 /* DriverScoretest */,
+				C868739A2D70BFE50020D1D7 /* DriverScoretestTests */,
+				C86873A42D70BFE50020D1D7 /* DriverScoretestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C86873882D70BFE40020D1D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86873992D70BFE50020D1D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86873A32D70BFE50020D1D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C86873862D70BFE40020D1D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86873972D70BFE50020D1D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86873A12D70BFE50020D1D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EFD77212D753E9B00170820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 0EFD77202D753E9B00170820 /* Networking */;
+		};
+		C868739D2D70BFE50020D1D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C86873892D70BFE40020D1D7 /* DriverScoretest */;
+			targetProxy = C868739C2D70BFE50020D1D7 /* PBXContainerItemProxy */;
+		};
+		C86873A72D70BFE50020D1D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C86873892D70BFE40020D1D7 /* DriverScoretest */;
+			targetProxy = C86873A62D70BFE50020D1D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C86873AD2D70BFE50020D1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C86873AE2D70BFE50020D1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C86873B02D70BFE50020D1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DriverScoretest/DriverScoretest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DriverScoretest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas-West-Rogers.DriverScoretest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C86873B12D70BFE50020D1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DriverScoretest/DriverScoretest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DriverScoretest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas-West-Rogers.DriverScoretest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		C86873B32D70BFE50020D1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas-West-Rogers.DriverScoretestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriverScoretest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DriverScoretest";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C86873B42D70BFE50020D1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas-West-Rogers.DriverScoretestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriverScoretest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DriverScoretest";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		C86873B62D70BFE50020D1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas-West-Rogers.DriverScoretestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = DriverScoretest;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C86873B72D70BFE50020D1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas-West-Rogers.DriverScoretestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = DriverScoretest;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C86873852D70BFE40020D1D7 /* Build configuration list for PBXProject "DriverScoretest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86873AD2D70BFE50020D1D7 /* Debug */,
+				C86873AE2D70BFE50020D1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86873AF2D70BFE50020D1D7 /* Build configuration list for PBXNativeTarget "DriverScoretest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86873B02D70BFE50020D1D7 /* Debug */,
+				C86873B12D70BFE50020D1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86873B22D70BFE50020D1D7 /* Build configuration list for PBXNativeTarget "DriverScoretestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86873B32D70BFE50020D1D7 /* Debug */,
+				C86873B42D70BFE50020D1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86873B52D70BFE50020D1D7 /* Build configuration list for PBXNativeTarget "DriverScoretestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86873B62D70BFE50020D1D7 /* Debug */,
+				C86873B72D70BFE50020D1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		C88F5FF12D74C96400ADC6EB /* XCLocalSwiftPackageReference "Packages/DesignSystem" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/DesignSystem;
+		};
+		C88F60392D74CC2E00ADC6EB /* XCLocalSwiftPackageReference "Packages/Networking" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Networking;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0E66C82A2D7F8C3F003A0384 /* NetworkingMocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C88F60392D74CC2E00ADC6EB /* XCLocalSwiftPackageReference "Packages/Networking" */;
+			productName = NetworkingMocks;
+		};
+		0EA209D52D7F658900AD7FDC /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C88F60392D74CC2E00ADC6EB /* XCLocalSwiftPackageReference "Packages/Networking" */;
+			productName = Networking;
+		};
+		0EA209D72D7F658900AD7FDC /* NetworkingMocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C88F60392D74CC2E00ADC6EB /* XCLocalSwiftPackageReference "Packages/Networking" */;
+			productName = NetworkingMocks;
+		};
+		0EB6E92F2D75CE1700554297 /* NetworkingMocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C88F60392D74CC2E00ADC6EB /* XCLocalSwiftPackageReference "Packages/Networking" */;
+			productName = NetworkingMocks;
+		};
+		0EFD771E2D753E8D00170820 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C88F60392D74CC2E00ADC6EB /* XCLocalSwiftPackageReference "Packages/Networking" */;
+			productName = Networking;
+		};
+		0EFD77202D753E9B00170820 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C88F60392D74CC2E00ADC6EB /* XCLocalSwiftPackageReference "Packages/Networking" */;
+			productName = Networking;
+		};
+		C88F5FF32D74C97500ADC6EB /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C88F5FF12D74C96400ADC6EB /* XCLocalSwiftPackageReference "Packages/DesignSystem" */;
+			productName = DesignSystem;
+		};
+		C88F603A2D74CC9900ADC6EB /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C88F60392D74CC2E00ADC6EB /* XCLocalSwiftPackageReference "Packages/Networking" */;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C86873822D70BFE40020D1D7 /* Project object */;
+}
